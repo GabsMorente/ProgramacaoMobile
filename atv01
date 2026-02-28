@@ -1,0 +1,101 @@
+import {useState} from "react";
+import {StyleSheet, Text, TouchableOpacity } from "react-native";
+
+export default function RootLayout() {
+  const[contador, setContador] = useState(0);
+
+function adicionaiMaisUm(){
+    setContador(contador + 1)
+}
+
+  return (
+    <>
+      <>
+        
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> AC </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text>  Del </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> ÷ </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> × </Text>
+        </TouchableOpacity>
+
+      </>
+
+      <>
+        
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> 7 </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> 8 </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> 9 </Text>
+        </TouchableOpacity>
+ <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> Clique + 1</Text>
+        </TouchableOpacity>
+    
+      </>
+      <>
+        
+       
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> Clique + 1</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> Clique + 1</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> Clique + 1</Text>
+        </TouchableOpacity>
+
+      </>
+
+      <>
+        
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> Clique + 1</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> Clique + 1</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> Clique + 1</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.botao} onPress={adicionaiMaisUm}>
+          <Text> Clique + 1</Text>
+        </TouchableOpacity>
+      </>
+    </>
+
+  );
+}
+
+const styles = StyleSheet.create({
+  botao:{
+    backgroundColor: 'purple',
+    marginHorizontal: 10,
+    padding: 20,
+    borderRadius: 30,
+    justifyContent:'center',
+    alignItems:'center'
+  }
+})
