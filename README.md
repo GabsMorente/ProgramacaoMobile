@@ -40,8 +40,11 @@ Fluxo de funcionamento:
 
 ## 🎨 Protótipos de Tela
 
-<img width="327" height="702" alt="image" src="https://github.com/user-attachments/assets/b1ed54c2-b5b3-42f4-a00b-7bdae4041078" />
+<img width="327" height="702" alt="image" src="https://github.com/user-attachments/assets/af50d6b5-a5a6-458e-bfe6-15595c0837fb" />
 
+## 🎨 Tela desenvolvida
+
+<img width="327" height="702" alt="image" src="https://github.com/user-attachments/assets/b1ed54c2-b5b3-42f4-a00b-7bdae4041078" />
 
 ## 📚 Tecnologias Utilizadas
 
