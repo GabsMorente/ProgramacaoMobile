@@ -40,7 +40,7 @@ Fluxo de funcionamento:
 
 ## 🎨 Protótipos de Tela
 
-![WhatsApp Image 2026-02-28 at 17 55 59](https://github.com/user-attachments/assets/cb6cde30-30a4-45c1-b692-f75d9a1b5481)
+<img width="381" height="761" alt="image" src="https://github.com/user-attachments/assets/c4563377-62d0-4220-ab43-a6ae6f6b5e79" />
 
 ## 🎨 Tela desenvolvida
 
